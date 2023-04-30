@@ -1,0 +1,168 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "aicte about",
+      "patterns": [
+        "What is AICTE",
+        "What do you do",
+        "Who are you",
+        "Your work"
+      ],
+      "responses": [
+        "The All India Council for Technical Education is a statutory body, and a national-level council for technical education, under the Department of Higher Education.",
+        "To provide for establishment of an All India council for Technical Education with a view to the proper planning and co-ordinated development of the technical education system throughout the country, the promotion of qualitative improvement of such education in relation to planned quantitative growth and the regulation and proper maintenance of norms and standards in the technical education system and for matters connected therewith."
+      ]
+    },
+    {
+      "tag": "bureaus",
+      "patterns": [
+        "Your bureaus?",
+        "bureaus",
+        "list bureaus"
+      ],
+      "responses": [
+        "The AICTE comprises following bureaus, namely:\ne-Governance (e-Gov) Bureau\nApproval (AB) Bureau\nPlanning and Co-ordination (PC) Bureau and Academic (Acad) Bureau\nUniversity (UB) Bureau\nAdministration (Admin) Bureau\nFinance (Fin) Bureau\nResearch, Institutional and Faculty Development (RIFD) Bureau\nApart from this there are 10 Board of Studies dealing with technician, vocational, undergraduate engineering, postgraduate engineering and research, architecture, town and country planning, pharmacy, management, applied arts and crafts, hotel management and catering technology education."
+      ]
+    },
+    {
+      "tag": "okay",
+      "patterns": [
+        "ok",
+        "okay",
+        "nice",
+        "cool"
+      ],
+      "responses": [
+        "Cool, hope it helps.",
+        "Anything else?",
+        "Hope your query is answered"
+      ]
+    },
+    {
+      "tag": "miss",
+      "patterns": [
+        "miss you",
+        "miss u",
+        "i miss you"
+      ],
+      "responses": [
+        "I miss you too",
+        "I miss you more"
+      ]
+    },
+    {
+      "tag": "AICTE year",
+      "patterns": [
+        "Which year AICTE was established?",
+        "When did AICTE created",
+        "AICTE birth year",
+        "When was AICTE founded"
+      ],
+      "responses": [
+        "AICTE was founded in November 1945"
+      ]
+    },
+    {
+      "tag": "AICTE full form",
+      "patterns": [
+        "What is the full form of AICTE",
+        "AICTE stands for",
+        "AICTE full form",
+        "AICTE means"
+      ],
+      "responses": [
+        "AICTE stands for All India Council for Technical Education"
+      ]
+    },
+    {
+      "tag": "courses",
+      "patterns": [
+        "What courses do you provide?",
+        "Courses offered?",
+        "Related courses",
+        "Courses available",
+        "Types of courses",
+        "Model Curriculum",
+        "Curriculum"
+      ],
+      "responses": [
+        "We provide UG, PG Degrees in Engineering and Technology and also MBA and PGDM in Management"
+      ]
+    },
+    {
+      "tag": "engineering courses",
+      "patterns": [
+        "What courses do you provide in engineering?",
+        "Courses offered in engineering",
+        "Related courses in engineering",
+        "Courses available in engineering",
+        "Types of courses in engineering",
+        "Model Curriculum",
+        "Curriculum",
+        "technology courses"
+      ],
+      "responses": [
+        "We provide UG, PG Degrees in Engineering and Technology"
+      ]
+    },
+    {
+      "tag": "Management courses",
+      "patterns": [
+        "What courses do you provide in Management?",
+        "Courses offered in Management",
+        "Related courses in Management",
+        "Courses available in Management",
+        "Types of courses in Management",
+        "Model Curriculum",
+        "Curriculum",
+        "Management courses"
+      ],
+      "responses": [
+        "We provide MBA and PGDM in Management"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    }
+  ]
+}
